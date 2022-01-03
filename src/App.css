@@ -36,3 +36,83 @@
     transform: rotate(360deg);
   }
 }
+
+/* //-------- */ 
+.box{
+  display: flex;
+  width: 60%;
+margin: auto;
+margin-top: 20px;
+  /* border: 1px solid blue; */
+  gap: 5%;
+} 
+.reciepeForm{
+  /* border: 1px solid red; */
+  background-color: #A3E4DB;
+  width: 35%; 
+  border-radius: 10px;
+
+  /* display: grid; */
+}
+.reciepeList{
+  /* border: 1px solid red; */
+  background-color: #F9C5D5;
+  width: 70%;
+  border-radius: 10px;
+}
+
+form{
+  /* border: 2px solid green; */
+} 
+
+#inputBox{
+    height: 50px;
+    width: 80%;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+
+
+.tableDiv{
+  margin: auto;
+  width: 80%;
+  /* border: 1px solid red; */
+  border-collapse: collapse;
+} 
+
+
+.tableDiv>tbody>tr>td:nth-child(7):hover{
+  cursor: pointer;
+background-color: rgb(255, 139, 118);
+border-radius: 10px;
+  color: rgb(0, 0, 0);
+  transition: .8s;
+
+} 
+
+/* //---- */ 
+
+.card{
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  width: 60%;
+  height: 350px;
+  margin: auto;
+  background-color: rgb(255, 129, 107);
+  border-radius: 10px;
+  overflow: scroll;
+} 
+.image-container{
+
+  box-sizing: border-box; 
+} 
+
+.image-container > img{
+  width: 100%;
+  border-radius: 10px;
+} 
+.card-container{
+  margin:  1 rem;
+}
