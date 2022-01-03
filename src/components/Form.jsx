@@ -153,9 +153,6 @@ export const Form = () => {
                     </select>
 
 
-                    {/* 
-                <input type="radio" name="marital_status" value="married" onClick={handleChange} /> Married
-                <input type="radio" name="marital_status" value="not married" onClick={handleChange} />Not Married */}
                     <div>  <input id="inputBox" type="file" name="file" placeholder="Image of your reciepe" onChange={handleChange} />  </div>
 
                     <div>  <button type="submit" >Submit</button></div>
